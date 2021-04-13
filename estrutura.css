@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    width: auto;
+    height: auto;
+    background-color: #E0DDE4;
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin: 0 12px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #261C1A;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: #F4F3F9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 50px;
+    font-weight: bold;
+}
+
+header {
+    height: 580px;
+    background: no-repeat center/cover url("imagens/fundo/header.jpg");
+
+}
+
+.header-content2 {
+    max-width: 500px;
+    margin-left: 40px;
+    margin-top: 185px;
+    color: #261C1A;
+}
+
+.header-content2 h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.header-content2 p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+p img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+   
+/* conteudo */
+    .clinica-container {
+        background: #E0DFE5;
+        max-width: 1240px;
+        margin: auto;
+        overflow: auto;
+    }
+    
+    .album {
+        margin: 5px;
+        float: left;
+        width: 400px;
+    }
+
+    .album  img {
+        width: 100%;
+        height: auto;
+        border-radius: 5%;
+    }
+
+
+/* rodapé */
+.rodape {
+    background: #C5C9CE;
+    text-align: center;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 20px 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #C6B6AE;
+}
+
+table {
+border: 1px solid black;}
+
+
+
