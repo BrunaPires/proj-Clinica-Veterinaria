@@ -97,6 +97,8 @@ p img {
 }
 
 
+/* Tabela */
+
 table, th, td {
     border-collapse: collapse;
     padding: 20px 50px;
@@ -115,3 +117,106 @@ border: 1px solid black;}
 
 
 
+/* Responsividade */
+
+/* TABLETS */
+@media (max-width: 768px) {
+    /* tabela */
+
+    table, th, td {
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 155px;
+        margin-bottom: 10px;
+    }
+    
+        th {
+        background-color: #C6B6AE;
+    }
+    
+        table {
+        border: 1px solid black;
+    } 
+
+    .album img{
+        width: 600px;
+        margin-left: 90px;
+    }
+}
+
+/*phones */
+@media (max-width: 380px) {
+    body {
+        height: 55px;
+    }
+    
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        z-index: 99;
+
+        background: #68ABE1;
+        color: white;
+        font-weight: bold;
+        height: 25px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-content2 {
+        margin-left: 10px;
+    }
+
+    .header-content2 h1 {
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-content2 p {
+        font-size: 18px;
+        text-align: justify;
+        padding: 10px;
+    
+    }
+
+    /* tabela */
+    table, th, td {
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+    th {
+    background-color: #C6B6AE;
+}
+
+    table {
+    border: 1px solid black;
+} 
+
+/* album */
+
+.album img{
+    width: 340px;
+    margin: 3px;
+}
+
+}
