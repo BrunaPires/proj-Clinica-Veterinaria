@@ -87,7 +87,7 @@ p img {
 }
 
 /*phones */
-@media (max-width: 380px) {
+@media (max-width: 360px) {
     body {
         height: 55px;
     }
