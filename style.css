@@ -83,11 +83,11 @@ p img {
 /* Responsividade */
 
 /*TABLETS*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 }
 
 /*phones */
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     body {
         height: 55px;
     }
