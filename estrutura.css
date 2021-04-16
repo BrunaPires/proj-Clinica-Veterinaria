@@ -149,7 +149,7 @@ border: 1px solid black;}
 /*phones */
 @media (max-width: 480px) {
     body {
-        height: 55px;
+        height: calc(100vh - 40px)
     }
     
     header nav ul {
@@ -165,7 +165,7 @@ border: 1px solid black;}
         background: #68ABE1;
         color: white;
         font-weight: bold;
-        height: 25px;
+        height: 40px;
 
         display: flex;
         justify-content: space-around;
