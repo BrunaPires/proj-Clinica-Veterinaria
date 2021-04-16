@@ -89,7 +89,7 @@ p img {
 /*phones */
 @media (max-width: 480px) {
     body {
-        height: 55px;
+        height: calc(100vh - 40px);
     }
     
     header nav ul {
